@@ -1,0 +1,102 @@
+:root{
+    --text:#fedd95;
+    --btnbg:#ffc853;
+    --bg:#1a1a1a;
+    --reelbg: #414141;
+}
+
+*{
+    background-color: var(--bg);
+    color: var(--text);
+}
+#logo{
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+    float: left;
+}
+#acc{
+    height: 50px;
+    /*right: 0;*/
+    float: right;
+    padding-top: 10px;
+}
+#name{
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 500px;
+}
+#menu{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+#menu a{
+    padding: 10px 20px;
+    border-radius: 50px;
+    width:100%;
+    text-decoration: none;
+}
+#menu a:hover{
+    color:var(--bg);
+    background: var(--text);
+}
+h1{
+font-size: 60px;
+
+}
+.reel{
+    line-height: 1.4;
+    width: 100%;
+}
+.reel p{
+    background-color: var(--reelbg); 
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: -0.1%;
+    text-align: justify;
+    
+
+}
+.sep{
+
+    margin-bottom: -100px;
+    width: 100%;
+}
+.prod{
+    margin: -5px;
+    border-right: 5px  var(--reelbg) solid;
+    border-left: 5px  var(--reelbg) solid;
+    width: 300px;
+    height:300px
+}
+.p-btn{
+    background-color: var(--reelbg);
+    padding: 10px 20px;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.p-btn:hover{
+    background-color: var(--text);
+    color: var(--reelbg);
+}
+.FlexContainer {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    width: 100%;
+    text-align: left;
+    background-color: var(--reelbg);
+    height: 80vh;
+    /*overflow: auto;*/
+    flex-direction: row;
+}
+.productline{
+    display: flex;
+    flex-direction: row;
+}
